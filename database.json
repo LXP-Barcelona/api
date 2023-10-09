@@ -1,5 +1,10 @@
 [
     {
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "*",
+      "Access-Control-Allow-Headers": "Content-Type"
+    },
+    {
         "id": 1,
         "name": {
             "en": "Lavender Oil 25ml",
