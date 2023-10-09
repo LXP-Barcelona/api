@@ -1,414 +1,402 @@
 [
     {
-        "AllowedHeaders": [
-            "*"
-        ],
-        "AllowedMethods": [
-            "GET"
-        ],
-        "AllowedOrigins": [
-            "*"
-        ],
-        "ExposeHeaders": []
+        "id": 1,
+        "name": {
+            "en": "Lavender Oil 25ml",
+            "fr": "Huile de Lavande 25ml",
+            "es": "Aceite de Lavanda 25ml"
+        },
+        "price": 12.99,
+        "description": {
+            "en": "Lavender Oil enriched with linalool<br/>Benefits:<br/><li>Antioxidant<li/><li>Antimicrobial<li/><li>Sedative<li/><li>Calming<li/><li>Antidepressive<li/>",
+            "fr": "Huile de lavande enrichie en linalol<br/>Avantages :<br/><li>Antioxydant<li/><li>Antimicrobien<li/><li>Sédatif<li/><li>Apaisant<li/><li>Antidépresseur<li/>",
+            "es": "Aceite de lavanda enriquecido con linalol<br/>Beneficios:<br/><li>Antioxidante<li/><li>Antimicrobiano<li/><li>Sedante<li/><li>Calmante<li/><li>Antidepresivo<li/>"
+        },
+        "specification": {
+            "en": "Prunus amygdalus dulci, Coconut Alkanes, Helianthus annuus, Cocos nucifera, Coco-Caprylate/Caprate, Anthemis nobilis, Citrus sinensis, Lavandula angustifolia, Cinnamomum camphora, Tocopherol, Linalol, Limonene  from organic farming",
+            "fr": "Prunus amygdalus dulci, Alcanes de coco, Helianthus annuus, Cocos nucifera, Coco-Caprylate/Caprate, Anthemis nobilis, Citrus sinensis, Lavandula angustifolia, Cinnamomum camphora, Tocophérol, Linalol, Limonène de l'agriculture biologique",
+            "es": "Prunus amygdalus dulci, Alcanos de coco, Helianthus annuus, Cocos nucifera, Coco-Caprylate/Caprate, Anthemis nobilis, Citrus sinensis, Lavandula angustifolia, Cinnamomum camphora, Tocoferol, Linalol, Limoneno de cultivo orgánico"
+        },
+        "category": {
+            "en": "Relaxation",
+            "fr": "Détente",
+            "es": "Relajación"
+        },
+        "image": "https://picsum.photos/200/300?random=1"
     },
-    "data": {
-            "id": 1,
-            "name": {
-                "en": "Lavender Oil 25ml",
-                "fr": "Huile de Lavande 25ml",
-                "es": "Aceite de Lavanda 25ml"
-            },
-            "price": 12.99,
-            "description": {
-                "en": "Lavender Oil enriched with linalool<br/>Benefits:<br/><li>Antioxidant<li/><li>Antimicrobial<li/><li>Sedative<li/><li>Calming<li/><li>Antidepressive<li/>",
-                "fr": "Huile de lavande enrichie en linalol<br/>Avantages :<br/><li>Antioxydant<li/><li>Antimicrobien<li/><li>Sédatif<li/><li>Apaisant<li/><li>Antidépresseur<li/>",
-                "es": "Aceite de lavanda enriquecido con linalol<br/>Beneficios:<br/><li>Antioxidante<li/><li>Antimicrobiano<li/><li>Sedante<li/><li>Calmante<li/><li>Antidepresivo<li/>"
-            },
-            "specification": {
-                "en": "Prunus amygdalus dulci, Coconut Alkanes, Helianthus annuus, Cocos nucifera, Coco-Caprylate/Caprate, Anthemis nobilis, Citrus sinensis, Lavandula angustifolia, Cinnamomum camphora, Tocopherol, Linalol, Limonene  from organic farming",
-                "fr": "Prunus amygdalus dulci, Alcanes de coco, Helianthus annuus, Cocos nucifera, Coco-Caprylate/Caprate, Anthemis nobilis, Citrus sinensis, Lavandula angustifolia, Cinnamomum camphora, Tocophérol, Linalol, Limonène de l'agriculture biologique",
-                "es": "Prunus amygdalus dulci, Alcanos de coco, Helianthus annuus, Cocos nucifera, Coco-Caprylate/Caprate, Anthemis nobilis, Citrus sinensis, Lavandula angustifolia, Cinnamomum camphora, Tocoferol, Linalol, Limoneno de cultivo orgánico"
-            },
-            "category": {
-                "en": "Relaxation",
-                "fr": "Détente",
-                "es": "Relajación"
-            },
-            "image": "https://picsum.photos/200/300?random=1"
+    {
+        "id": 2,
+        "name": {
+            "en": "Lavender Oil 25ml",
+            "fr": "Huile de Lavande 25ml",
+            "es": "Aceite de Lavanda 25ml"
         },
-        {
-            "id": 2,
-            "name": {
-                "en": "Lavender Oil 25ml",
-                "fr": "Huile de Lavande 25ml",
-                "es": "Aceite de Lavanda 25ml"
-            },
-            "price": 12.99,
-            "description": {
-                "en": "Lavender Oil enriched with linalool<br/>Benefits:<br/><li>Antioxidant<li/><li>Antimicrobial<li/><li>Sedative<li/><li>Calming<li/><li>Antidepressive<li/>",
-                "fr": "Huile de lavande enrichie en linalol<br/>Avantages :<br/><li>Antioxydant<li/><li>Antimicrobien<li/><li>Sédatif<li/><li>Apaisant<li/><li>Antidépresseur<li/>",
-                "es": "Aceite de lavanda enriquecido con linalol<br/>Beneficios:<br/><li>Antioxidante<li/><li>Antimicrobiano<li/><li>Sedante<li/><li>Calmante<li/><li>Antidepresivo<li/>"
-            },
-            "specification": {
-                "en": "Essential oil of Mentha x Piperita (Productive Organ : Airway Parts) from organic farming",
-                "fr": "Huile essentielle de Mentha x Piperita (Organe productif : parties des voies respiratoires) issue de l'agriculture biologique",
-                "es": "Aceite esencial de Mentha x Piperita (Órgano productivo: partes del tracto respiratorio) de agricultura orgánica"
-            },
-            "category": {
-                "en": "Mental Clarity",
-                "fr": "Clarté mentale",
-                "es": "Claridad mental"
-            },
-            "image": "https://picsum.photos/200/300?random=1"
+        "price": 12.99,
+        "description": {
+            "en": "Lavender Oil enriched with linalool<br/>Benefits:<br/><li>Antioxidant<li/><li>Antimicrobial<li/><li>Sedative<li/><li>Calming<li/><li>Antidepressive<li/>",
+            "fr": "Huile de lavande enrichie en linalol<br/>Avantages :<br/><li>Antioxydant<li/><li>Antimicrobien<li/><li>Sédatif<li/><li>Apaisant<li/><li>Antidépresseur<li/>",
+            "es": "Aceite de lavanda enriquecido con linalol<br/>Beneficios:<br/><li>Antioxidante<li/><li>Antimicrobiano<li/><li>Sedante<li/><li>Calmante<li/><li>Antidepresivo<li/>"
         },
-        {
-            "id": 3,
-            "name": {
-                "en": "Eucalyptus Oil 25ml",
-                "fr": "Huile d'Eucalyptus 25ml",
-                "es": "Aceite de Eucalipto 25ml"
-            },
-            "price": 14.50,
-            "description": {
-                "en": "Benefits: <br/><li>Stimulate immunity<li/><li>Antimicrobial<li/><li>Analgesic Agent<li/><li>Antioxydant<li/><li>Anti-inflamatory<li/><li>Pain relief properties<li/><li>",
-                "fr": "Avantages : <br/><li>Stimule l'immunité<li/><li>Antimicrobien<li/><li>Agent analgésique<li/><li>Antioxydant<li/><li>Anti-inflammatoire<li/><li>Propriétés analgésiques<li/><li>",
-                "es": "Beneficios: <br/><li>Estimula la inmunidad<li/><li>Antimicrobiano<li/><li>Agente analgésico<li/><li>Antioxidante<li/><li>Antiinflamatorio<li/><li>Propiedades para aliviar el dolor<li/><li>"
-            },
-            "specification": {
-                "en": "Extract of Eucalyptus flower from organic farming",
-                "fr": "Extrait de fleur d'eucalyptus issu de l'agriculture biologique",
-                "es": "Extracto de flor de eucalipto de agricultura orgánica"
-            },
-            "category": {
-                "en": "Respiratory Health",
-                "fr": "Santé respiratoire",
-                "es": "Salud respiratoria"
-            },
-            "image": "https://picsum.photos/200/300?random=1"
+        "specification": {
+            "en": "Essential oil of Mentha x Piperita (Productive Organ : Airway Parts) from organic farming",
+            "fr": "Huile essentielle de Mentha x Piperita (Organe productif : parties des voies respiratoires) issue de l'agriculture biologique",
+            "es": "Aceite esencial de Mentha x Piperita (Órgano productivo: partes del tracto respiratorio) de agricultura orgánica"
         },
-        {
-            "id": 4,
-            "name": {
-                "en": "Tea Tree Oil 25ml",
-                "fr": "Huile d'Arbre à Thé 25ml",
-                "es": "Aceite de Árbol de Té 25ml"
-            },
-            "price": 14.99,
-            "description": {
-                "en": "Benefits: <br/><li>Antiseptic<li/><li>Antibacterial<li/><li>Anti-iflammatory<li/><li>",
-                "fr": "Avantages : <br/><li>Antiseptique<li/><li>Antibactérien<li/><li>Anti-inflammatoire<li/><li>",
-                "es": "Beneficios: <br/><li>Antiséptico<li/><li>Antibacteriano<li/><li>Antiinflamatorio<li/><li>"
-            },
-            "specification": {
-                "en": "Melaleuca Aternifolia from organic farming",
-                "fr": "Melaleuca Aternifolia issu de l'agriculture biologique",
-                "es": "Melaleuca Aternifolia de agricultura orgánica"
-            },
-            "category": {
-                "en": "Skin Health",
-                "fr": "Santé de la peau",
-                "es": "Salud de la piel"
-            },
-            "image": "https://picsum.photos/200/300?random=1"
+        "category": {
+            "en": "Mental Clarity",
+            "fr": "Clarté mentale",
+            "es": "Claridad mental"
         },
-        {
-            "id": 5,
-            "name": {
-                "en": "Lemon Oil 25ml",
-                "fr": "Huile de Citron 25ml",
-                "es": "Aceite de Limón 25ml"
-            },
-            "price": 7.99,
-            "description": {
-                "en": "Benefits: <br/><li>Antioxidant<li/><li>Stimulate Immunity<li/><li>Improve Cognitive Functions<li/>",
-                "fr": "Avantages : <br/><li>Antioxydant<li/><li>Stimule l'immunité<li/><li>Améliore les fonctions cognitives<li/>",
-                "es": "Beneficios: <br/><li>Antioxidante<li/><li>Estimula la inmunidad<li/><li>Mejora las funciones cognitivas<li/>"
-            },
-            "specification": {
-                "en": "Essential Oil HEBBD 100% Pure, 100% Natural, 100% Total, 100% Active of Citrus Limonum (Productive Organ : Zest) from organic farming",
-                "fr": "Huile essentielle HEBBD 100% pure, 100% naturelle, 100% totale, 100% active de Citrus Limonum (Organe productif : Zeste) issue de l'agriculture biologique",
-                "es": "Aceite esencial HEBBD 100% puro, 100% natural, 100% total, 100% activo de Citrus Limonum (Órgano productivo: cáscara) de agricultura orgánica"
-            },
-            "category": {
-                "en": "Purifying",
-                "fr": "Purifiant",
-                "es": "Purificante"
-            },
-            "image": "https://picsum.photos/200/300?random=1"
+        "image": "https://picsum.photos/200/300?random=1"
+    },
+    {
+        "id": 3,
+        "name": {
+            "en": "Eucalyptus Oil 25ml",
+            "fr": "Huile d'Eucalyptus 25ml",
+            "es": "Aceite de Eucalipto 25ml"
         },
-        {
-            "id": 6,
-            "name": {
-                "en": "Rosemary Oil 25ml",
-                "fr": "Huile de Romarin 25ml",
-                "es": "Aceite de Romero 25ml"
-            },
-            "price": 13.50,
-            "description": {
-                "en": "Benefits: <br/><li>Antioxidant<li/><li>Stimulate Immunity<li/><li>Hair Loss Remedy<li/><li>Improve Cognitive Functions<li/>",
-                "fr": "Avantages : <br/><li>Antioxydant<li/><li>Stimule l'immunité<li/><li>Remède contre la perte de cheveux<li/><li>Améliore les fonctions cognitives<li/>",
-                "es": "Beneficios: <br/><li>Antioxidante<li/><li>Estimula la inmunidad<li/><li>Remedio para la caída del cabello<li/><li>Mejora las funciones cognitivas<li/>"
-            },
-            "specification": {
-                "en": "Rosmarinus Officinalis ct Verbenone from organic farming",
-                "fr": "Rosmarinus Officinalis ct Verbenone issu de l'agriculture biologique",
-                "es": "Rosmarinus Officinalis ct Verbenona de agricultura orgánica"
-            },
-            "category": {
-                "en": "Skin Health",
-                "fr": "Santé de la peau",
-                "es": "Salud de la piel"
-            },
-            "image": "https://picsum.photos/200/300?random=1"
+        "price": 14.50,
+        "description": {
+            "en": "Benefits: <br/><li>Stimulate immunity<li/><li>Antimicrobial<li/><li>Analgesic Agent<li/><li>Antioxydant<li/><li>Anti-inflamatory<li/><li>Pain relief properties<li/><li>",
+            "fr": "Avantages : <br/><li>Stimule l'immunité<li/><li>Antimicrobien<li/><li>Agent analgésique<li/><li>Antioxydant<li/><li>Anti-inflammatoire<li/><li>Propriétés analgésiques<li/><li>",
+            "es": "Beneficios: <br/><li>Estimula la inmunidad<li/><li>Antimicrobiano<li/><li>Agente analgésico<li/><li>Antioxidante<li/><li>Antiinflamatorio<li/><li>Propiedades para aliviar el dolor<li/><li>"
         },
-        {
-            "id": 7,
-            "name": {
-                "en": "Chamomile Oil 25ml",
-                "fr": "Huile de Camomille 25ml",
-                "es": "Aceite de Manzanilla 25ml"
-            },
-            "price": 10.50,
-            "description": {
-                "en": "Benefits: <br/><li>Sedative<li/><li>Antidepressant<li/><li>Antimicrobial<li/><li>Antioxidant<li/><li>Antispasmodic<li/><li>Boosts Skin Health<li/><li>",
-                "fr": "Avantages : <br/><li>Sédatif<li/><li>Antidépresseur<li/><li>Antimicrobien<li/><li>Antioxydant<li/><li>Antispasmodique<li/><li>Renforce la santé de la peau<li/><li>",
-                "es": "Beneficios: <br/><li>Sedante<li/><li>Antidepresivo<li/><li>Antimicrobiano<li/><li>Antioxidante<li/><li>Antiespasmódico<li/><li>Mejora la salud de la piel<li/><li>"
-            },
-            "specification": {
-                "en": "Essential Oil of Chamaemelum Nobile (Productive Organ : Flowers) from organic farming",
-                "fr": "Huile essentielle de Chamaemelum Nobile (Organe productif : Fleurs) issue de l'agriculture biologique",
-                "es": "Aceite esencial de Chamaemelum Nobile (Órgano productivo: Flores) de agricultura orgánica"
-            },
-            "category": {
-                "en": "Mental Clarity",
-                "fr": "Clarté mentale",
-                "es": "Claridad mental"
-            },
-            "image": "https://picsum.photos/200/300?random=1"
+        "specification": {
+            "en": "Extract of Eucalyptus flower from organic farming",
+            "fr": "Extrait de fleur d'eucalyptus issu de l'agriculture biologique",
+            "es": "Extracto de flor de eucalipto de agricultura orgánica"
         },
-        {
-            "id": 8,
-            "name": {
-                "en": "Frankincense Oil 25ml",
-                "fr": "Huile d'Encens 25ml",
-                "es": "Aceite de Incienso 25ml"
-            },
-            "price": 15.99,
-            "description": {
-                "en": "Benefits: <br/><li>Antidepressant<li/><li>Anti-anxiety<li/><li>Stimulates Immunity<li/><li>Antiseptic<li/><li>Antimicrobial<li/>",
-                "fr": "Avantages : <br/><li>Antidépresseur<li/><li>Anxiolytique<li/><li>Stimule l'immunité<li/><li>Antiseptique<li/><li>Antimicrobien<li/>",
-                "es": "Beneficios: <br/><li>Antidepresivo<li/><li>Ansiolítico<li/><li>Estimula la inmunidad<li/><li>Antiséptico<li/><li>Antibacteriano<li/>"
-            },
-            "specification": {
-                "en": "Essential Oil of Boswellia Sacra (Productive Organ : Rubber) from organic farming",
-                "fr": "Huile essentielle de Boswellia Sacra (Organe productif : Résine) issue de l'agriculture biologique",
-                "es": "Aceite esencial de Boswellia Sacra (Órgano productivo: Resina) de agricultura orgánica"
-            },
-            "category": {
-                "en": "Mental Clarity",
-                "fr": "Clarté mentale",
-                "es": "Claridad mental"
-            },
-            "image": "https://picsum.photos/200/300?random=1"
+        "category": {
+            "en": "Respiratory Health",
+            "fr": "Santé respiratoire",
+            "es": "Salud respiratoria"
         },
-        {
-            "id": 9,
-            "name": {
-                "en": "Sandalwood Oil 25ml",
-                "fr": "Huile de Bois de Santal 25ml",
-                "es": "Aceite de Sándalo 25ml"
-            },
-            "price": 22.50,
-            "description": {
-                "en": "Benefits: <br/><li>Helps with mental focus<li/><li>Relieve stress, anxiety and drepression<li/><li>Aphrodisiac<li/><li>Astringent<li/><li>Antiviral Agent<li/><li>Antiseptic<li/><li>Anti-inflammatory<li/><li>Expectorant<li/><li>Anti-aging<li/>",
-                "fr": "Avantages : <br/><li>Aide à la concentration mentale<li/><li>Soulage le stress, l'anxiété et la dépression<li/><li>Aphrodisiaque<li/><li>Astringent<li/><li>Agent antiviral<li/><li>Antiseptique<li/><li>Anti-inflammatoire<li/><li>Expectorant<li/><li>Anti-âge<li/>",
-                "es": "Beneficios: <br/><li>Ayuda con el enfoque mental<li/><li>Alivia el estrés, la ansiedad y la depresión<li/><li>Afrodisíaco<li/><li>Astringente<li/><li>Agente antiviral<li/><li>Antiséptico<li/><li>Antiinflamatorio<li/><li>Expectorante<li/><li>Antienvejecimiento<li/>"
-            },
-            "specification": {
-                "en": "Sandalwood from organic farming",
-                "fr": "Bois de santal issu de l'agriculture biologique",
-                "es": "Sándalo de agricultura orgánica"
-            },
-            "category": {
-                "en": "Relaxation",
-                "fr": "Détente",
-                "es": "Relajación"
-            },
-            "image": "https://picsum.photos/200/300?random=1"
+        "image": "https://picsum.photos/200/300?random=1"
+    },
+    {
+        "id": 4,
+        "name": {
+            "en": "Tea Tree Oil 25ml",
+            "fr": "Huile d'Arbre à Thé 25ml",
+            "es": "Aceite de Árbol de Té 25ml"
         },
-        {
-            "id": 10,
-            "name": {
-                "en": "Cedarwood Oil 25ml",
-                "fr": "Huile de Cèdre 25ml",
-                "es": "Aceite de Cedro 25ml"
-            },
-            "price": 15.50,
-            "description": {
-                "en": "Benefits: <br/><li>Anti-inflamatory<li/><li>Increase circulation<li/><li>Antiseptic<li/><li>Sedative<li/><li>Antifungal properties<li/><li>Increases Focus<li/><li>Antiseptic<li/>",
-                "fr": "Avantages : <br/><li>Anti-inflammatoire<li/><li>Augmente la circulation<li/><li>Antiseptique<li/><li>Sédatif<li/><li>Propriétés antifongiques<li/><li>Améliore la concentration<li/><li>Antiseptique<li/>",
-                "es": "Beneficios: <br/><li>Antiinflamatorio<li/><li>Aumenta la circulación<li/><li>Antiséptico<li/><li>Sedante<li/><li>Propiedades antifúngicas<li/><li>Aumenta la concentración<li/><li>Antiséptico<li/>"
-            },
-            "specification": {
-                "en": "Cedrus Atlantica Wood Oil from organic farming",
-                "fr": "Huile de bois de cèdre de Cedrus Atlantica issue de l'agriculture biologique",
-                "es": "Aceite de madera de Cedrus Atlantica de agricultura orgánica"
-            },
-            "category": {
-                "en": "Healing",
-                "fr": "Guérison",
-                "es": "Cicatrización"
-            },
-            "image": "https://picsum.photos/200/300?random=1"
+        "price": 14.99,
+        "description": {
+            "en": "Benefits: <br/><li>Antiseptic<li/><li>Antibacterial<li/><li>Anti-iflammatory<li/><li>",
+            "fr": "Avantages : <br/><li>Antiseptique<li/><li>Antibactérien<li/><li>Anti-inflammatoire<li/><li>",
+            "es": "Beneficios: <br/><li>Antiséptico<li/><li>Antibacteriano<li/><li>Antiinflamatorio<li/><li>"
         },
-        {
-            "id": 11,
-            "name": {
-                "en": "Bergamot Oil 25ml",
-                "fr": "Huile de Bergamote 25ml",
-                "es": "Aceite de Bergamota 25ml"
-            },
-            "price": 12.99,
-            "description": {
-                "en": "Benefits: <br/><li>Antidepressant<li/><li>Anti-anxiety<li/><li>Anti Bacterial<li/><li>Improves Blood Pressure<li/><li>Prevents Infections<li/><li>Natural Analgesic<li/><li>Boosts skin health<li/><li>Antimicrobial<li/>",
-                "fr": "Avantages : <br/><li>Antidépresseur<li/><li>Antianxiolytique<li/><li>Antibactérien<li/><li>Améliore la pression artérielle<li/><li>Prévient les infections<li/><li>Analgésique naturel<li/><li>Renforce la santé de la peau<li/><li>Antimicrobien<li/>",
-                "es": "Beneficios: <br/><li>Antidepresivo<li/><li>Ansiolítico<li/><li>Antibacteriano<li/><li>Mejora la presión arterial<li/><li>Previene infecciones<li/><li>Analgésico natural<li/><li>Mejora la salud de la piel<li/><li>Antimicrobiano<li/>"
-            },
-            "specification": {
-                "en": "Citrus Bergamia Peel Oil Expressed from organic farming",
-                "fr": "Huile de zeste de Citrus Bergamia issue de l'agriculture biologique",
-                "es": "Aceite de cáscara de Citrus Bergamia de agricultura orgánica"
-            },
-            "category": {
-                "en": "Mental Clarity",
-                "fr": "Clarté mentale",
-                "es": "Claridad mental"
-            },
-            "image": "https://picsum.photos/200/300?random=1"
+        "specification": {
+            "en": "Melaleuca Aternifolia from organic farming",
+            "fr": "Melaleuca Aternifolia issu de l'agriculture biologique",
+            "es": "Melaleuca Aternifolia de agricultura orgánica"
         },
-        {
-            "id": 12,
-            "name": {
-                "en": "Lemongrass Oil 25ml",
-                "fr": "Huile de Citronnelle 25 ml",
-                "es": "Aceite de Hierba de Limón 25 ml"
-            },
-            "price": 12.99,
-            "description": {
-                "en": "Benefits: <br/><li>Skin Healing<li/><li>Soothing<li/><li>Antibacterial<li/><li>Relieves Anxiety<li/><li>Detoxifying<li/><li>Antifungal<li/><li>Boosts Immunity<li/><li>Anti-inflammatory<li/>",
-                "fr": "Avantages : <br/><li>Cicatrisation de la peau<li/><li>Apaisant<li/><li>Antibactérien<li/><li>Relieve l'anxiété<li/><li>Détoxifiant<li/><li>Antifongique<li/><li>Renforce l'immunité<li/><li>Anti-inflammatoire<li/>",
-                "es": "Beneficios: <br/><li>Cicatrización de la piel<li/><li>Calma<li/><li>Antibacteriano<li/><li>Alivia la ansiedad<li/><li>Desintoxicante<li/><li>Antifúngico<li/><li>Refuerza la inmunidad<li/><li>Antiinflamatorio<li/>"
-            },
-            "specification": {
-                "en": "Essential oil of Cymbopogon citratus from organic farming",
-                "fr": "Huile essentielle de Cymbopogon citratus issue de l'agriculture biologique",
-                "es": "Aceite esencial de Cymbopogon citratus de cultivo orgánico"
-            },
-            "category": {
-                "en": "Relaxation",
-                "fr": "Détente",
-                "es": "Relajación"
-            },
-            "image": "https://picsum.photos/200/300?random=1"
+        "category": {
+            "en": "Skin Health",
+            "fr": "Santé de la peau",
+            "es": "Salud de la piel"
         },
-        {
-            "id": 13,
-            "name": {
-                "en": "Orange Oil 25ml",
-                "fr": "Huile d'Orange 25 ml",
-                "es": "Aceite de Naranja 25 ml"
-            },
-            "price": 7.99,
-            "description": {
-                "en": "Benefits: <br/><li>Antibacterial<li/><li>Boosts Immunity<li/><li>Lowers Blood Pressure<li/><li>Anti-inflammatory<li/><li>Relieves Anxiety<li/>",
-                "fr": "Avantages : <br/><li>Antibactérien<li/><li>Renforce l'immunité<li/><li>Abaisse la pression sanguine<li/><li>Anti-inflammatoire<li/><li>Allevie l'anxiété<li/>",
-                "es": "Beneficios: <br/><li>Antibacteriano<li/><li>Refuerza la inmunidad<li/><li>Reduce la presión arterial<li/><li>Antiinflamatorio<li/><li>Alivia la ansiedad<li/>"
-            },
-            "specification": {
-                "en": "Essential Oil HEBBD 100% Pure, 100% Natural, 100% Total, 100% Active of Citrus Limonum (Productive Organ: Zest) from organic farming",
-                "fr": "Huile essentielle HEBBD 100% pure, 100% naturelle, 100% totale, 100% active de Citrus Limonum (Organe productif : Zeste) issue de l'agriculture biologique",
-                "es": "Aceite esencial HEBBD 100% puro, 100% natural, 100% total, 100% activo de Citrus Limonum (Órgano productivo: Cáscara) de cultivo orgánico"
-            },
-            "category": {
-                "en": "Mental Clarity",
-                "fr": "Clarté mentale",
-                "es": "Claridad mental"
-            },
-            "image": "https://picsum.photos/200/300?random=1"
+        "image": "https://picsum.photos/200/300?random=1"
+    },
+    {
+        "id": 5,
+        "name": {
+            "en": "Lemon Oil 25ml",
+            "fr": "Huile de Citron 25ml",
+            "es": "Aceite de Limón 25ml"
         },
-        {
-            "id": 14,
-            "name": {
-                "en": "Patchouli Oil 25ml",
-                "fr": "Huile de Patchouli 25 ml",
-                "es": "Aceite de Pachulí 25 ml"
-            },
-            "price": 15.50,
-            "description": {
-                "en": "Benefits: <br/><li>Antidepressant<li/><li>Anti-inflammatory<li/><li>Calming<li/>",
-                "fr": "Avantages : <br/><li>Antidépresseur<li/><li>Anti-inflammatoire<li/><li>Apaisant<li/>",
-                "es": "Beneficios: <br/><li>Antidepresivo<li/><li>Antiinflamatorio<li/><li>Calmante<li/>"
-            },
-            "specification": {
-                "en": "pogostemon cablin leaf oil ( Productive Organ: leaves) from organic farming",
-                "fr": "Huile de feuilles de pogostemon cablin (Organe productif : Feuilles) issue de l'agriculture biologique",
-                "es": "Aceite de hojas de pogostemon cablin (Órgano productivo: Hojas) de cultivo orgánico"
-            },
-            "category": {
-                "en": "Respiratory Health",
-                "fr": "Santé respiratoire",
-                "es": "Salud respiratoria"
-            },
-            "image": "https://picsum.photos/200/300?random=1"
+        "price": 7.99,
+        "description": {
+            "en": "Benefits: <br/><li>Antioxidant<li/><li>Stimulate Immunity<li/><li>Improve Cognitive Functions<li/>",
+            "fr": "Avantages : <br/><li>Antioxydant<li/><li>Stimule l'immunité<li/><li>Améliore les fonctions cognitives<li/>",
+            "es": "Beneficios: <br/><li>Antioxidante<li/><li>Estimula la inmunidad<li/><li>Mejora las funciones cognitivas<li/>"
         },
-        {
-            "id": 15,
-            "name": {
-                "en": "Geranium Oil 25ml",
-                "fr": "Huile de Géranium 25 ml",
-                "es": "Aceite de Geranio 25 ml"
-            },
-            "price": 15.50,
-            "description": {
-                "en": "Benefits: <br/><li>Antibacterial<li/><li>Antifungal<li/><li>Anti-neuroinflammatory<li/><li>Nerve Painkiller<li/><li>Antidepressant<li/><li>Anti anxiety<li/><li>Anti-inflammatory<li/>",
-                "fr": "Avantages : <br/><li>Antibactérien<li/><li>Antifongique<li/><li>Anti-neuroinflammatoire<li/><li>Antidouleur nerveux<li/><li>Antidépresseur<li/><li>Anti-anxiété<li/><li>Anti-inflammatoire<li/>",
-                "es": "Beneficios: <br/><li>Antibacteriano<li/><li>Antifúngico<li/><li>Antineuroinflamatorio<li/><li>Analgésico nervioso<li/><li>Antidepresivo<li/><li>Anti ansiedad<li/><li>Antiinflamatorio<li/>"
-            },
-            "specification": {
-                "en": "Essential Oil of Pelargonium asperum (Productive Organ : leaves)",
-                "fr": "Huile essentielle de Pelargonium asperum (Organe productif : Feuilles)",
-                "es": "Aceite esencial de Pelargonium asperum (Órgano productivo: Hojas)"
-            },
-            "category": {
-                "en": "Relaxation",
-                "fr": "Détente",
-                "es": "Relajación"
-            },
-            "image": "https://picsum.photos/200/300?random=1"
+        "specification": {
+            "en": "Essential Oil HEBBD 100% Pure, 100% Natural, 100% Total, 100% Active of Citrus Limonum (Productive Organ : Zest) from organic farming",
+            "fr": "Huile essentielle HEBBD 100% pure, 100% naturelle, 100% totale, 100% active de Citrus Limonum (Organe productif : Zeste) issue de l'agriculture biologique",
+            "es": "Aceite esencial HEBBD 100% puro, 100% natural, 100% total, 100% activo de Citrus Limonum (Órgano productivo: cáscara) de agricultura orgánica"
         },
-        {
-            "id": 16,
-            "name": {
-                "en": "Thyme Oil 25ml",
-                "fr": "Huile de Thym 25 ml",
-                "es": "Aceite de Tomillo 25 ml"
-            },
-            "price": 15.50,
-            "description": {
-                "en": "Benefits: <br/><li>Antiseptic<li/><li>Antibacterial<li/><li>Antispasmodic<li/><li>Hypertensive<li/><li>Calming<li/><li>Antioxydant<li/><li>Boosts Immunity<li/><li>Antifungal<li/>",
-                "fr": "Avantages : <br/><li>Antiseptique<li/><li>Antibactérien<li/><li>Antispasmodique<li/><li>Hypertensif<li/><li>Apaisant<li/><li>Antioxydant<li/><li>Renforce l'immunité<li/><li>Antifongique<li/>",
-                "es": "Beneficios: <br/><li>Antiséptico<li/><li>Antibacteriano<li/><li>Antiespasmódico<li/><li>Hipertensivo<li/><li>Calmante<li/><li>Antioxidante<li/><li>Refuerza la inmunidad<li/><li>Antifúngico<li/>"
-            },
-            "specification": {
-                "en": "Essential oil of Thymus Zygis Thymoliferum ( Productive Organ : Airway Parts)",
-                "fr": "Huile essentielle de Thymus Zygis Thymoliferum (Organe productif : Parties respiratoires)",
-                "es": "Aceite esencial de Thymus Zygis Thymoliferum (Órgano productivo: Partes de las vías respiratorias)"
-            },
-            "category": {
-                "en": "Mental Clarity",
-                "fr": "Clarté mentale",
-                "es": "Claridad mental"
-            },
-            "image": "https://picsum.photos/200/300?random=1"
-        }
+        "category": {
+            "en": "Purifying",
+            "fr": "Purifiant",
+            "es": "Purificante"
+        },
+        "image": "https://picsum.photos/200/300?random=1"
+    },
+    {
+        "id": 6,
+        "name": {
+            "en": "Rosemary Oil 25ml",
+            "fr": "Huile de Romarin 25ml",
+            "es": "Aceite de Romero 25ml"
+        },
+        "price": 13.50,
+        "description": {
+            "en": "Benefits: <br/><li>Antioxidant<li/><li>Stimulate Immunity<li/><li>Hair Loss Remedy<li/><li>Improve Cognitive Functions<li/>",
+            "fr": "Avantages : <br/><li>Antioxydant<li/><li>Stimule l'immunité<li/><li>Remède contre la perte de cheveux<li/><li>Améliore les fonctions cognitives<li/>",
+            "es": "Beneficios: <br/><li>Antioxidante<li/><li>Estimula la inmunidad<li/><li>Remedio para la caída del cabello<li/><li>Mejora las funciones cognitivas<li/>"
+        },
+        "specification": {
+            "en": "Rosmarinus Officinalis ct Verbenone from organic farming",
+            "fr": "Rosmarinus Officinalis ct Verbenone issu de l'agriculture biologique",
+            "es": "Rosmarinus Officinalis ct Verbenona de agricultura orgánica"
+        },
+        "category": {
+            "en": "Skin Health",
+            "fr": "Santé de la peau",
+            "es": "Salud de la piel"
+        },
+        "image": "https://picsum.photos/200/300?random=1"
+    },
+    {
+        "id": 7,
+        "name": {
+            "en": "Chamomile Oil 25ml",
+            "fr": "Huile de Camomille 25ml",
+            "es": "Aceite de Manzanilla 25ml"
+        },
+        "price": 10.50,
+        "description": {
+            "en": "Benefits: <br/><li>Sedative<li/><li>Antidepressant<li/><li>Antimicrobial<li/><li>Antioxidant<li/><li>Antispasmodic<li/><li>Boosts Skin Health<li/><li>",
+            "fr": "Avantages : <br/><li>Sédatif<li/><li>Antidépresseur<li/><li>Antimicrobien<li/><li>Antioxydant<li/><li>Antispasmodique<li/><li>Renforce la santé de la peau<li/><li>",
+            "es": "Beneficios: <br/><li>Sedante<li/><li>Antidepresivo<li/><li>Antimicrobiano<li/><li>Antioxidante<li/><li>Antiespasmódico<li/><li>Mejora la salud de la piel<li/><li>"
+        },
+        "specification": {
+            "en": "Essential Oil of Chamaemelum Nobile (Productive Organ : Flowers) from organic farming",
+            "fr": "Huile essentielle de Chamaemelum Nobile (Organe productif : Fleurs) issue de l'agriculture biologique",
+            "es": "Aceite esencial de Chamaemelum Nobile (Órgano productivo: Flores) de agricultura orgánica"
+        },
+        "category": {
+            "en": "Mental Clarity",
+            "fr": "Clarté mentale",
+            "es": "Claridad mental"
+        },
+        "image": "https://picsum.photos/200/300?random=1"
+    },
+    {
+        "id": 8,
+        "name": {
+            "en": "Frankincense Oil 25ml",
+            "fr": "Huile d'Encens 25ml",
+            "es": "Aceite de Incienso 25ml"
+        },
+        "price": 15.99,
+        "description": {
+            "en": "Benefits: <br/><li>Antidepressant<li/><li>Anti-anxiety<li/><li>Stimulates Immunity<li/><li>Antiseptic<li/><li>Antimicrobial<li/>",
+            "fr": "Avantages : <br/><li>Antidépresseur<li/><li>Anxiolytique<li/><li>Stimule l'immunité<li/><li>Antiseptique<li/><li>Antimicrobien<li/>",
+            "es": "Beneficios: <br/><li>Antidepresivo<li/><li>Ansiolítico<li/><li>Estimula la inmunidad<li/><li>Antiséptico<li/><li>Antibacteriano<li/>"
+        },
+        "specification": {
+            "en": "Essential Oil of Boswellia Sacra (Productive Organ : Rubber) from organic farming",
+            "fr": "Huile essentielle de Boswellia Sacra (Organe productif : Résine) issue de l'agriculture biologique",
+            "es": "Aceite esencial de Boswellia Sacra (Órgano productivo: Resina) de agricultura orgánica"
+        },
+        "category": {
+            "en": "Mental Clarity",
+            "fr": "Clarté mentale",
+            "es": "Claridad mental"
+        },
+        "image": "https://picsum.photos/200/300?random=1"
+    },
+    {
+        "id": 9,
+        "name": {
+            "en": "Sandalwood Oil 25ml",
+            "fr": "Huile de Bois de Santal 25ml",
+            "es": "Aceite de Sándalo 25ml"
+        },
+        "price": 22.50,
+        "description": {
+            "en": "Benefits: <br/><li>Helps with mental focus<li/><li>Relieve stress, anxiety and drepression<li/><li>Aphrodisiac<li/><li>Astringent<li/><li>Antiviral Agent<li/><li>Antiseptic<li/><li>Anti-inflammatory<li/><li>Expectorant<li/><li>Anti-aging<li/>",
+            "fr": "Avantages : <br/><li>Aide à la concentration mentale<li/><li>Soulage le stress, l'anxiété et la dépression<li/><li>Aphrodisiaque<li/><li>Astringent<li/><li>Agent antiviral<li/><li>Antiseptique<li/><li>Anti-inflammatoire<li/><li>Expectorant<li/><li>Anti-âge<li/>",
+            "es": "Beneficios: <br/><li>Ayuda con el enfoque mental<li/><li>Alivia el estrés, la ansiedad y la depresión<li/><li>Afrodisíaco<li/><li>Astringente<li/><li>Agente antiviral<li/><li>Antiséptico<li/><li>Antiinflamatorio<li/><li>Expectorante<li/><li>Antienvejecimiento<li/>"
+        },
+        "specification": {
+            "en": "Sandalwood from organic farming",
+            "fr": "Bois de santal issu de l'agriculture biologique",
+            "es": "Sándalo de agricultura orgánica"
+        },
+        "category": {
+            "en": "Relaxation",
+            "fr": "Détente",
+            "es": "Relajación"
+        },
+        "image": "https://picsum.photos/200/300?random=1"
+    },
+    {
+        "id": 10,
+        "name": {
+            "en": "Cedarwood Oil 25ml",
+            "fr": "Huile de Cèdre 25ml",
+            "es": "Aceite de Cedro 25ml"
+        },
+        "price": 15.50,
+        "description": {
+            "en": "Benefits: <br/><li>Anti-inflamatory<li/><li>Increase circulation<li/><li>Antiseptic<li/><li>Sedative<li/><li>Antifungal properties<li/><li>Increases Focus<li/><li>Antiseptic<li/>",
+            "fr": "Avantages : <br/><li>Anti-inflammatoire<li/><li>Augmente la circulation<li/><li>Antiseptique<li/><li>Sédatif<li/><li>Propriétés antifongiques<li/><li>Améliore la concentration<li/><li>Antiseptique<li/>",
+            "es": "Beneficios: <br/><li>Antiinflamatorio<li/><li>Aumenta la circulación<li/><li>Antiséptico<li/><li>Sedante<li/><li>Propiedades antifúngicas<li/><li>Aumenta la concentración<li/><li>Antiséptico<li/>"
+        },
+        "specification": {
+            "en": "Cedrus Atlantica Wood Oil from organic farming",
+            "fr": "Huile de bois de cèdre de Cedrus Atlantica issue de l'agriculture biologique",
+            "es": "Aceite de madera de Cedrus Atlantica de agricultura orgánica"
+        },
+        "category": {
+            "en": "Healing",
+            "fr": "Guérison",
+            "es": "Cicatrización"
+        },
+        "image": "https://picsum.photos/200/300?random=1"
+    },
+    {
+        "id": 11,
+        "name": {
+            "en": "Bergamot Oil 25ml",
+            "fr": "Huile de Bergamote 25ml",
+            "es": "Aceite de Bergamota 25ml"
+        },
+        "price": 12.99,
+        "description": {
+            "en": "Benefits: <br/><li>Antidepressant<li/><li>Anti-anxiety<li/><li>Anti Bacterial<li/><li>Improves Blood Pressure<li/><li>Prevents Infections<li/><li>Natural Analgesic<li/><li>Boosts skin health<li/><li>Antimicrobial<li/>",
+            "fr": "Avantages : <br/><li>Antidépresseur<li/><li>Antianxiolytique<li/><li>Antibactérien<li/><li>Améliore la pression artérielle<li/><li>Prévient les infections<li/><li>Analgésique naturel<li/><li>Renforce la santé de la peau<li/><li>Antimicrobien<li/>",
+            "es": "Beneficios: <br/><li>Antidepresivo<li/><li>Ansiolítico<li/><li>Antibacteriano<li/><li>Mejora la presión arterial<li/><li>Previene infecciones<li/><li>Analgésico natural<li/><li>Mejora la salud de la piel<li/><li>Antimicrobiano<li/>"
+        },
+        "specification": {
+            "en": "Citrus Bergamia Peel Oil Expressed from organic farming",
+            "fr": "Huile de zeste de Citrus Bergamia issue de l'agriculture biologique",
+            "es": "Aceite de cáscara de Citrus Bergamia de agricultura orgánica"
+        },
+        "category": {
+            "en": "Mental Clarity",
+            "fr": "Clarté mentale",
+            "es": "Claridad mental"
+        },
+        "image": "https://picsum.photos/200/300?random=1"
+    },
+    {
+        "id": 12,
+        "name": {
+            "en": "Lemongrass Oil 25ml",
+            "fr": "Huile de Citronnelle 25 ml",
+            "es": "Aceite de Hierba de Limón 25 ml"
+        },
+        "price": 12.99,
+        "description": {
+            "en": "Benefits: <br/><li>Skin Healing<li/><li>Soothing<li/><li>Antibacterial<li/><li>Relieves Anxiety<li/><li>Detoxifying<li/><li>Antifungal<li/><li>Boosts Immunity<li/><li>Anti-inflammatory<li/>",
+            "fr": "Avantages : <br/><li>Cicatrisation de la peau<li/><li>Apaisant<li/><li>Antibactérien<li/><li>Relieve l'anxiété<li/><li>Détoxifiant<li/><li>Antifongique<li/><li>Renforce l'immunité<li/><li>Anti-inflammatoire<li/>",
+            "es": "Beneficios: <br/><li>Cicatrización de la piel<li/><li>Calma<li/><li>Antibacteriano<li/><li>Alivia la ansiedad<li/><li>Desintoxicante<li/><li>Antifúngico<li/><li>Refuerza la inmunidad<li/><li>Antiinflamatorio<li/>"
+        },
+        "specification": {
+            "en": "Essential oil of Cymbopogon citratus from organic farming",
+            "fr": "Huile essentielle de Cymbopogon citratus issue de l'agriculture biologique",
+            "es": "Aceite esencial de Cymbopogon citratus de cultivo orgánico"
+        },
+        "category": {
+            "en": "Relaxation",
+            "fr": "Détente",
+            "es": "Relajación"
+        },
+        "image": "https://picsum.photos/200/300?random=1"
+    },
+    {
+        "id": 13,
+        "name": {
+            "en": "Orange Oil 25ml",
+            "fr": "Huile d'Orange 25 ml",
+            "es": "Aceite de Naranja 25 ml"
+        },
+        "price": 7.99,
+        "description": {
+            "en": "Benefits: <br/><li>Antibacterial<li/><li>Boosts Immunity<li/><li>Lowers Blood Pressure<li/><li>Anti-inflammatory<li/><li>Relieves Anxiety<li/>",
+            "fr": "Avantages : <br/><li>Antibactérien<li/><li>Renforce l'immunité<li/><li>Abaisse la pression sanguine<li/><li>Anti-inflammatoire<li/><li>Allevie l'anxiété<li/>",
+            "es": "Beneficios: <br/><li>Antibacteriano<li/><li>Refuerza la inmunidad<li/><li>Reduce la presión arterial<li/><li>Antiinflamatorio<li/><li>Alivia la ansiedad<li/>"
+        },
+        "specification": {
+            "en": "Essential Oil HEBBD 100% Pure, 100% Natural, 100% Total, 100% Active of Citrus Limonum (Productive Organ: Zest) from organic farming",
+            "fr": "Huile essentielle HEBBD 100% pure, 100% naturelle, 100% totale, 100% active de Citrus Limonum (Organe productif : Zeste) issue de l'agriculture biologique",
+            "es": "Aceite esencial HEBBD 100% puro, 100% natural, 100% total, 100% activo de Citrus Limonum (Órgano productivo: Cáscara) de cultivo orgánico"
+        },
+        "category": {
+            "en": "Mental Clarity",
+            "fr": "Clarté mentale",
+            "es": "Claridad mental"
+        },
+        "image": "https://picsum.photos/200/300?random=1"
+    },
+    {
+        "id": 14,
+        "name": {
+            "en": "Patchouli Oil 25ml",
+            "fr": "Huile de Patchouli 25 ml",
+            "es": "Aceite de Pachulí 25 ml"
+        },
+        "price": 15.50,
+        "description": {
+            "en": "Benefits: <br/><li>Antidepressant<li/><li>Anti-inflammatory<li/><li>Calming<li/>",
+            "fr": "Avantages : <br/><li>Antidépresseur<li/><li>Anti-inflammatoire<li/><li>Apaisant<li/>",
+            "es": "Beneficios: <br/><li>Antidepresivo<li/><li>Antiinflamatorio<li/><li>Calmante<li/>"
+        },
+        "specification": {
+            "en": "pogostemon cablin leaf oil ( Productive Organ: leaves) from organic farming",
+            "fr": "Huile de feuilles de pogostemon cablin (Organe productif : Feuilles) issue de l'agriculture biologique",
+            "es": "Aceite de hojas de pogostemon cablin (Órgano productivo: Hojas) de cultivo orgánico"
+        },
+        "category": {
+            "en": "Respiratory Health",
+            "fr": "Santé respiratoire",
+            "es": "Salud respiratoria"
+        },
+        "image": "https://picsum.photos/200/300?random=1"
+    },
+    {
+        "id": 15,
+        "name": {
+            "en": "Geranium Oil 25ml",
+            "fr": "Huile de Géranium 25 ml",
+            "es": "Aceite de Geranio 25 ml"
+        },
+        "price": 15.50,
+        "description": {
+            "en": "Benefits: <br/><li>Antibacterial<li/><li>Antifungal<li/><li>Anti-neuroinflammatory<li/><li>Nerve Painkiller<li/><li>Antidepressant<li/><li>Anti anxiety<li/><li>Anti-inflammatory<li/>",
+            "fr": "Avantages : <br/><li>Antibactérien<li/><li>Antifongique<li/><li>Anti-neuroinflammatoire<li/><li>Antidouleur nerveux<li/><li>Antidépresseur<li/><li>Anti-anxiété<li/><li>Anti-inflammatoire<li/>",
+            "es": "Beneficios: <br/><li>Antibacteriano<li/><li>Antifúngico<li/><li>Antineuroinflamatorio<li/><li>Analgésico nervioso<li/><li>Antidepresivo<li/><li>Anti ansiedad<li/><li>Antiinflamatorio<li/>"
+        },
+        "specification": {
+            "en": "Essential Oil of Pelargonium asperum (Productive Organ : leaves)",
+            "fr": "Huile essentielle de Pelargonium asperum (Organe productif : Feuilles)",
+            "es": "Aceite esencial de Pelargonium asperum (Órgano productivo: Hojas)"
+        },
+        "category": {
+            "en": "Relaxation",
+            "fr": "Détente",
+            "es": "Relajación"
+        },
+        "image": "https://picsum.photos/200/300?random=1"
+    },
+    {
+        "id": 16,
+        "name": {
+            "en": "Thyme Oil 25ml",
+            "fr": "Huile de Thym 25 ml",
+            "es": "Aceite de Tomillo 25 ml"
+        },
+        "price": 15.50,
+        "description": {
+            "en": "Benefits: <br/><li>Antiseptic<li/><li>Antibacterial<li/><li>Antispasmodic<li/><li>Hypertensive<li/><li>Calming<li/><li>Antioxydant<li/><li>Boosts Immunity<li/><li>Antifungal<li/>",
+            "fr": "Avantages : <br/><li>Antiseptique<li/><li>Antibactérien<li/><li>Antispasmodique<li/><li>Hypertensif<li/><li>Apaisant<li/><li>Antioxydant<li/><li>Renforce l'immunité<li/><li>Antifongique<li/>",
+            "es": "Beneficios: <br/><li>Antiséptico<li/><li>Antibacteriano<li/><li>Antiespasmódico<li/><li>Hipertensivo<li/><li>Calmante<li/><li>Antioxidante<li/><li>Refuerza la inmunidad<li/><li>Antifúngico<li/>"
+        },
+        "specification": {
+            "en": "Essential oil of Thymus Zygis Thymoliferum ( Productive Organ : Airway Parts)",
+            "fr": "Huile essentielle de Thymus Zygis Thymoliferum (Organe productif : Parties respiratoires)",
+            "es": "Aceite esencial de Thymus Zygis Thymoliferum (Órgano productivo: Partes de las vías respiratorias)"
+        },
+        "category": {
+            "en": "Mental Clarity",
+            "fr": "Clarté mentale",
+            "es": "Claridad mental"
+        },
+        "image": "https://picsum.photos/200/300?random=1"
+    }
 ]
