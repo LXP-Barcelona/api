@@ -1,6 +1,7 @@
-const app = require('express')();
+const express = require('express');
 const database = require('./database.json');
 
+const app = express();
 app.use(express.json());
 
 app.get('/api/products', (req, res) => {
