@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": {
+            "fr": "Lavender Oil 25ml"
+        },
+        "price": 12.99,
+        "description": {
+            "fr": "Lavender Oil enriched with linalool<br/>Benefits:<br/><li>Antioxidant<li/><li>Antimicrobial<li/><li>Sedative<li/><li>Calming<li/><li>Antidepressive<li/>"
+        },
+        "specification": {
+            "fr": "Prunus amygdalus dulci, Coconut Alkanes, Helianthus annuus, Cocos nucifera, Coco-Caprylate/Caprate, Anthemis nobilis, Citrus sinensis, Lavandula angustifolia, Cinnamomum camphora, Tocopherol, Linalol, Limonene  from organic farming."
+        },
+        "category": {
+            "fr": "Relaxation",
+            "en": "test"
+        },
+        "image": "https://picsum.photos/200/300?random=1"
+    },
+    {
+        "id": 2,
+        "name": {
+            "fr": "Lavender Oil 25ml"
+        },
+        "price": 12.99,
+        "description": {
+            "fr": "Lavender Oil enriched with linalool<br/>Benefits:<br/><li>Antioxidant<li/><li>Antimicrobial<li/><li>Sedative<li/><li>Calming<li/><li>Antidepressive<li/>"
+        },
+        "specification": {
+            "fr": "Prunus amygdalus dulci, Coconut Alkanes, Helianthus annuus, Cocos nucifera, Coco-Caprylate/Caprate, Anthemis nobilis, Citrus sinensis, Lavandula angustifolia, Cinnamomum camphora, Tocopherol, Linalol, Limonene  from organic farming."
+        },
+        "category": {
+            "fr": "Relaxation",
+            "en": "test"
+        },
+        "image": "https://picsum.photos/200/300?random=1"
+    }
+]
