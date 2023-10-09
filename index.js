@@ -1,17 +1,8 @@
 const express = require('express');
 const database = require('./database.json');
-const cors = require('cors');
 
 const app = express();
-const cors = require('cors');
-const corsOptions = {
-    credentials: true,
-    origin: function (origin, callback) {
-        return callback(null, true);
-    }
-};
 
-app.use(cors(corsOptions));
 app.use(express.json());
 
 app.get('/api/products', (req, res) => {
