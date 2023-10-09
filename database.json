@@ -11,7 +11,7 @@
         ],
         "ExposeHeaders": []
     },
-    "data":{
+    "data": {
             "id": 1,
             "name": {
                 "en": "Lavender Oil 25ml",
@@ -411,5 +411,4 @@
             },
             "image": "https://picsum.photos/200/300?random=1"
         }
-    }
 ]
