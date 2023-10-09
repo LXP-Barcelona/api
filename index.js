@@ -2,7 +2,6 @@ const express = require('express');
 const database = require('./database.json');
 
 const app = express();
-
 app.use(express.json());
 
 app.get('/api/products', (req, res) => {
@@ -16,7 +15,6 @@ app.get('/api/products', (req, res) => {
     }));
     res.send(result);
 });
-
 app.get('/api/product/:id', (req, res) => {
     const id = req.params["id"];
     const langParam = req.query['lang'] || "en";
@@ -38,5 +36,4 @@ app.get('/api/product/:id', (req, res) => {
     }
     
 })
-
 app.listen(8080, () => console.log(`Server is running in port 8080`));
