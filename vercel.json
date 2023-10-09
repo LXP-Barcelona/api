@@ -12,10 +12,6 @@
             "dest": "/"
         }
     ],
-    "headers": [
-        {
-            "key": "Access-Control-Allow-Origin",
-            "value": "*"
-        }
-    ]
+    "allowOrigins": [ "http://this.example.com" ],
+    "allowMethods": [ "GET" ]
 }
