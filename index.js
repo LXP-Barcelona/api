@@ -1,7 +1,6 @@
-const express = require('express');
+const app = require('express')();
 const database = require('./database.json');
 
-const app = express();
 app.use(express.json());
 
 app.get('/api/products', (req, res) => {
@@ -38,6 +37,4 @@ app.get('/api/product/:id', (req, res) => {
     
 })
 
-app.listen(3000, () => {
-    console.log(`Serveur démarré sur le port 3000`);
-});
+module.exports = app;
