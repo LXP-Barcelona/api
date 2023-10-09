@@ -1,8 +1,20 @@
 const express = require('express');
 const database = require('./database.json');
+const cors = require('cors');
 
 const app = express();
 app.use(express.json());
+
+// Configurer les options CORS
+const corsOptions = {
+    origin: 'https://sensorial.vercel.app', // Remplacez ceci par le domaine qui a besoin d'accéder à vos ressources
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE', // Méthodes HTTP autorisées
+    credentials: true, // Autoriser l'envoi de cookies
+    optionsSuccessStatus: 204, // Répondre avec un statut 204 pour les requêtes OPTIONS
+  };
+  
+  // Activer le middleware CORS avec les options configurées
+  app.use(cors(corsOptions));
 
 app.get('/api/products', (req, res) => {
     const langParam = req.query['lang'] || "en";
