@@ -22,7 +22,7 @@
             "fr": "Détente",
             "es": "Relajación"
         },
-        "image": "https://picsum.photos/200/300?random=1"
+        "image": "https://picsum.photos/150/150?random=1"
     },
     {
         "id": 2,
@@ -47,7 +47,7 @@
             "fr": "Clarté mentale",
             "es": "Claridad mental"
         },
-        "image": "https://picsum.photos/200/300?random=1"
+        "image": "https://picsum.photos/150/150?random=1"
     },
     {
         "id": 3,
@@ -72,7 +72,7 @@
             "fr": "Santé respiratoire",
             "es": "Salud respiratoria"
         },
-        "image": "https://picsum.photos/200/300?random=1"
+        "image": "https://picsum.photos/150/150?random=1"
     },
     {
         "id": 4,
@@ -97,7 +97,7 @@
             "fr": "Santé de la peau",
             "es": "Salud de la piel"
         },
-        "image": "https://picsum.photos/200/300?random=1"
+        "image": "https://picsum.photos/150/150?random=1"
     },
     {
         "id": 5,
@@ -122,7 +122,7 @@
             "fr": "Purifiant",
             "es": "Purificante"
         },
-        "image": "https://picsum.photos/200/300?random=1"
+        "image": "https://picsum.photos/150/150?random=1"
     },
     {
         "id": 6,
@@ -147,7 +147,7 @@
             "fr": "Santé de la peau",
             "es": "Salud de la piel"
         },
-        "image": "https://picsum.photos/200/300?random=1"
+        "image": "https://picsum.photos/150/150?random=1"
     },
     {
         "id": 7,
@@ -172,7 +172,7 @@
             "fr": "Clarté mentale",
             "es": "Claridad mental"
         },
-        "image": "https://picsum.photos/200/300?random=1"
+        "image": "https://picsum.photos/150/150?random=1"
     },
     {
         "id": 8,
@@ -197,7 +197,7 @@
             "fr": "Clarté mentale",
             "es": "Claridad mental"
         },
-        "image": "https://picsum.photos/200/300?random=1"
+        "image": "https://picsum.photos/150/150?random=1"
     },
     {
         "id": 9,
@@ -222,7 +222,7 @@
             "fr": "Détente",
             "es": "Relajación"
         },
-        "image": "https://picsum.photos/200/300?random=1"
+        "image": "https://picsum.photos/150/150?random=1"
     },
     {
         "id": 10,
@@ -247,7 +247,7 @@
             "fr": "Guérison",
             "es": "Cicatrización"
         },
-        "image": "https://picsum.photos/200/300?random=1"
+        "image": "https://picsum.photos/150/150?random=1"
     },
     {
         "id": 11,
@@ -272,7 +272,7 @@
             "fr": "Clarté mentale",
             "es": "Claridad mental"
         },
-        "image": "https://picsum.photos/200/300?random=1"
+        "image": "https://picsum.photos/150/150?random=1"
     },
     {
         "id": 12,
@@ -297,7 +297,7 @@
             "fr": "Détente",
             "es": "Relajación"
         },
-        "image": "https://picsum.photos/200/300?random=1"
+        "image": "https://picsum.photos/150/150?random=1"
     },
     {
         "id": 13,
@@ -322,7 +322,7 @@
             "fr": "Clarté mentale",
             "es": "Claridad mental"
         },
-        "image": "https://picsum.photos/200/300?random=1"
+        "image": "https://picsum.photos/150/150?random=1"
     },
     {
         "id": 14,
@@ -347,7 +347,7 @@
             "fr": "Santé respiratoire",
             "es": "Salud respiratoria"
         },
-        "image": "https://picsum.photos/200/300?random=1"
+        "image": "https://picsum.photos/150/150?random=1"
     },
     {
         "id": 15,
@@ -372,7 +372,7 @@
             "fr": "Détente",
             "es": "Relajación"
         },
-        "image": "https://picsum.photos/200/300?random=1"
+        "image": "https://picsum.photos/150/150?random=1"
     },
     {
         "id": 16,
@@ -397,6 +397,6 @@
             "fr": "Clarté mentale",
             "es": "Claridad mental"
         },
-        "image": "https://picsum.photos/200/300?random=1"
+        "image": "https://picsum.photos/150/150?random=1"
     }
 ]
