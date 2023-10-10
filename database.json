@@ -27,20 +27,20 @@
     {
         "id": 2,
         "name": {
-            "en": "Lavender Oil 25ml",
-            "fr": "Huile de Lavande 25ml",
-            "es": "Aceite de Lavanda 25ml"
+            "en": "Peppermint Oil 25ml",
+            "fr": "Huile de Menthe Poivrée 25ml",
+            "es": "Aceite de Menta 25ml"
         },
         "price": 12.99,
         "description": {
-            "en": "Lavender Oil enriched with linalool<br/>Benefits:<br/><li>Antioxidant<li/><li>Antimicrobial<li/><li>Sedative<li/><li>Calming<li/><li>Antidepressive<li/>",
-            "fr": "Huile de lavande enrichie en linalol<br/>Avantages :<br/><li>Antioxydant<li/><li>Antimicrobien<li/><li>Sédatif<li/><li>Apaisant<li/><li>Antidépresseur<li/>",
-            "es": "Aceite de lavanda enriquecido con linalol<br/>Beneficios:<br/><li>Antioxidante<li/><li>Antimicrobiano<li/><li>Sedante<li/><li>Calmante<li/><li>Antidepresivo<li/>"
+            "en": "Benefits: <br/><li>Antioxidant<li/><li>Natural Pain Killer<li/><li>Antimicrobial<li/><li>Antiviral<li/><li>Boost energy<li/><li>Improve concentration<li/>",
+            "fr": "Bienfaits : <br/><li>Antioxydant<li/><li>Analgésique Naturel<li/><li>Antimicrobien<li/><li>Antiviral<li/><li>Booste l'énergie<li/><li>Améliore la concentration<li/>",
+            "es": "Beneficios: <br/><li>Antioxidante<li/><li>Analgésico Natural<li/><li>Antimicrobiano<li/><li>Antiviral<li/><li>Estimula la energía<li/><li>Mejora la concentración<li/>",
         },
         "specification": {
             "en": "Essential oil of Mentha x Piperita (Productive Organ : Airway Parts) from organic farming",
-            "fr": "Huile essentielle de Mentha x Piperita (Organe productif : parties des voies respiratoires) issue de l'agriculture biologique",
-            "es": "Aceite esencial de Mentha x Piperita (Órgano productivo: partes del tracto respiratorio) de agricultura orgánica"
+            "fr": "Huile essentielle de Mentha x Piperita (Organe productif : Parties respiratoires) de l'agriculture biologique.",
+            "es": "Aceite esencial de Mentha x Piperita (Órgano Productivo: Partes Respiratorias) de cultivo orgánico"
         },
         "category": {
             "en": "Mental Clarity",
