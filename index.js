@@ -27,6 +27,7 @@ app.get('/api/product/:id', (req, res) => {
     if (!id) return res.send("error id");
     const result = [];
     const ids = id.includes(",") ? id.split(/,/g) : [id];
+    console.log(ids);
 
     for (let i = 0; i < ids.length; i++) {
         try {
@@ -44,7 +45,6 @@ app.get('/api/product/:id', (req, res) => {
             console.log(_);
         }
     }
-
     res.send(result);
 })
 
