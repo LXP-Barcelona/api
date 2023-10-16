@@ -63,10 +63,18 @@ const stripe = require("stripe")(STRIPE_TEST_KEY);
 
 
 app.post("/create-checkout-session", async (req, res) => {
-    console.log("Connecting with Stripe...");
+
+    console.log(req.body);
+    res.send("ok")
+    return;
   
     const session = await stripe.checkout.sessions.create({
-      line_items: req.body,
+      line_items: [
+        {
+            price: 1313,
+            a
+        }
+      ],
       mode: "payment",
       success_url: `${YOUR_DOMAIN}/success.html`,
       cancel_url: `${YOUR_DOMAIN}/cancel.html`,
