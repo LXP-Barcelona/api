@@ -55,5 +55,24 @@ app.get('/api/product/:id', (req, res) => {
     res.send(result);
 })
 
-app.listen(8080, () => console.log(`Server is running in port 8080`));
+//STRIPE
+const STRIPE_TEST_KEY = "sk_test_51NwSUtDNLrrLTVOHXibHDuEVNUzEXTJXgVQ1V3ADlMZSTTCt1EDx2iAAHt1EV71wmexPsHKKxikdRaZnTM16DvOA00cYudArVE";
+const YOUR_DOMAIN = "http://localhost:8080/frontend";
+// This is your test secret API key.
+const stripe = require("stripe")(STRIPE_TEST_KEY);
 
+
+app.post("/create-checkout-session", async (req, res) => {
+    console.log("Connecting with Stripe...");
+  
+    const session = await stripe.checkout.sessions.create({
+      line_items: req.body,
+      mode: "payment",
+      success_url: `${YOUR_DOMAIN}/success.html`,
+      cancel_url: `${YOUR_DOMAIN}/cancel.html`,
+    });
+  
+    res.json({ url: session.url });
+  });
+
+app.listen(8080, () => console.log(`Server is running in port 8080`));
