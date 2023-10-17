@@ -22,7 +22,7 @@
             "fr": "Détente",
             "es": "Relajación"
         },
-        "image": "https://picsum.photos/150/150?random=1"
+        "image": "https://sensorial.vercel.app/code/img/productImg/lavande.jpg"
     },
     {
         "id": 2,
@@ -47,7 +47,7 @@
             "fr": "Clarté mentale",
             "es": "Claridad mental"
         },
-        "image": "https://picsum.photos/150/150?random=2"
+        "image": "https://sensorial.vercel.app/code/img/productImg/peppermint.jpg"
     },
     {
         "id": 3,
@@ -72,7 +72,7 @@
             "fr": "Santé respiratoire",
             "es": "Salud respiratoria"
         },
-        "image": "https://picsum.photos/150/150?random=3"
+        "image": "https://sensorial.vercel.app/code/img/productImg/eucalyptus.jpg"
     },
     {
         "id": 4,
@@ -97,7 +97,7 @@
             "fr": "Santé de la peau",
             "es": "Salud de la piel"
         },
-        "image": "https://picsum.photos/150/150?random=4"
+        "image": "https://sensorial.vercel.app/code/img/productImg/teatree.jpg"
     },
     {
         "id": 5,
@@ -122,7 +122,7 @@
             "fr": "Purifiant",
             "es": "Purificante"
         },
-        "image": "https://picsum.photos/150/150?random=5"
+        "image": "https://sensorial.vercel.app/code/img/productImg/lemon.jpg"
     },
     {
         "id": 6,
@@ -147,7 +147,7 @@
             "fr": "Santé de la peau",
             "es": "Salud de la piel"
         },
-        "image": "https://picsum.photos/150/150?random=6"
+        "image": "https://sensorial.vercel.app/code/img/productImg/rosemary.jpg"
     },
     {
         "id": 7,
@@ -172,7 +172,7 @@
             "fr": "Clarté mentale",
             "es": "Claridad mental"
         },
-        "image": "https://picsum.photos/150/150?random=7"
+        "image": "https://sensorial.vercel.app/code/img/productImg/chamomille.jpg"
     },
     {
         "id": 8,
@@ -197,7 +197,7 @@
             "fr": "Clarté mentale",
             "es": "Claridad mental"
         },
-        "image": "https://picsum.photos/150/150?random=8"
+        "image": "https://sensorial.vercel.app/code/img/productImg/encens.jpg"
     },
     {
         "id": 9,
@@ -222,7 +222,7 @@
             "fr": "Détente",
             "es": "Relajación"
         },
-        "image": "https://picsum.photos/150/150?random=9"
+        "image": "https://sensorial.vercel.app/code/img/productImg/sental.jpg"
     },
     {
         "id": 10,
@@ -247,7 +247,7 @@
             "fr": "Guérison",
             "es": "Cicatrización"
         },
-        "image": "https://picsum.photos/150/150?random=10"
+        "image": "https://sensorial.vercel.app/code/img/productImg/cedre.jpg"
     },
     {
         "id": 11,
@@ -272,7 +272,7 @@
             "fr": "Clarté mentale",
             "es": "Claridad mental"
         },
-        "image": "https://picsum.photos/150/150?random=11"
+        "image": "https://sensorial.vercel.app/code/img/productImg/bergamote.jpg"
     },
     {
         "id": 12,
@@ -297,7 +297,7 @@
             "fr": "Détente",
             "es": "Relajación"
         },
-        "image": "https://picsum.photos/150/150?random=12"
+        "image": "https://sensorial.vercel.app/code/img/productImg/citronnelle.jpg"
     },
     {
         "id": 13,
@@ -322,7 +322,7 @@
             "fr": "Clarté mentale",
             "es": "Claridad mental"
         },
-        "image": "https://picsum.photos/150/150?random=13"
+        "image": "https://sensorial.vercel.app/code/img/productImg/orange.jpg"
     },
     {
         "id": 14,
@@ -347,7 +347,7 @@
             "fr": "Santé respiratoire",
             "es": "Salud respiratoria"
         },
-        "image": "https://picsum.photos/150/150?random=14"
+        "image": "https://sensorial.vercel.app/code/img/productImg/patchouli.jpg"
     },
     {
         "id": 15,
@@ -372,7 +372,7 @@
             "fr": "Détente",
             "es": "Relajación"
         },
-        "image": "https://picsum.photos/150/150?random=15"
+        "image": "https://sensorial.vercel.app/code/img/productImg/geranium.jpg"
     },
     {
         "id": 16,
@@ -397,6 +397,6 @@
             "fr": "Clarté mentale",
             "es": "Claridad mental"
         },
-        "image": "https://picsum.photos/150/150?random=16"
+        "image": "https://sensorial.vercel.app/code/img/productImg/thym.jpg"
     }
 ]
