@@ -5,11 +5,7 @@ const STRIPE_TEST_KEY = "sk_test_51NwSUtDNLrrLTVOHXibHDuEVNUzEXTJXgVQ1V3ADlMZSTT
 const stripe = require("stripe")(STRIPE_TEST_KEY);
 
 const app = express();
-app.use(
-    cors({
-        origin: "*",
-    })
-);
+app.use(cors());
 
 app.use(express.json());
 app.get('/api/products/info', (req, res) => {
@@ -35,7 +31,6 @@ app.get('/api/product/:id', (req, res) => {
     if (!id) return res.send("error id");
     const result = [];
     const ids = id.includes(",") ? id.split(/,/g) : [id];
-    console.log(ids);
 
     for (let i = 0; i < ids.length; i++) {
         try {
