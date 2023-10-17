@@ -66,13 +66,12 @@ app.post("/create-checkout-session", async (req, res) => {
 
     console.log(req.body);
     res.send("ok")
-    return;
+
   
     const session = await stripe.checkout.sessions.create({
       line_items: [
         {
-            price: 1313,
-            a
+            
         }
       ],
       mode: "payment",
