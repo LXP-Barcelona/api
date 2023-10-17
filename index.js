@@ -5,11 +5,7 @@ const STRIPE_TEST_KEY = "sk_test_51NwSUtDNLrrLTVOHXibHDuEVNUzEXTJXgVQ1V3ADlMZSTT
 const stripe = require("stripe")(STRIPE_TEST_KEY);
 
 const app = express();
-app.use(
-    cors({
-        origin: "*",
-    })
-);
+app.use(cors());
 
 app.use(express.json());
 app.get('/api/products/info', (req, res) => {
