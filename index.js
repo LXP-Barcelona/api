@@ -1,6 +1,8 @@
 const express = require('express');
 const database = require('./database.json');
 const cors = require('cors');
+const STRIPE_TEST_KEY = "sk_test_51NwSUtDNLrrLTVOHXibHDuEVNUzEXTJXgVQ1V3ADlMZSTTCt1EDx2iAAHt1EV71wmexPsHKKxikdRaZnTM16DvOA00cYudArVE";
+const stripe = require("stripe")(STRIPE_TEST_KEY);
 
 const app = express();
 app.use(
@@ -9,14 +11,12 @@ app.use(
   })
 );
 app.use(express.json());
-
 app.get('/api/products/info', (req, res) => {
     const maxProduct = database.length;
     res.send({
         max: maxProduct
     })
 })
-
 app.get('/api/products', (req, res) => {
     const langParam = req.query['lang'] || "en";
     const result = database.map(item => ({
@@ -55,31 +55,32 @@ app.get('/api/product/:id', (req, res) => {
     res.send(result);
 })
 
-//STRIPE
-const STRIPE_TEST_KEY = "sk_test_51NwSUtDNLrrLTVOHXibHDuEVNUzEXTJXgVQ1V3ADlMZSTTCt1EDx2iAAHt1EV71wmexPsHKKxikdRaZnTM16DvOA00cYudArVE";
-const YOUR_DOMAIN = "http://localhost:8080/frontend";
-// This is your test secret API key.
-const stripe = require("stripe")(STRIPE_TEST_KEY);
-
-
 app.post("/create-checkout-session", async (req, res) => {
-
-    console.log(req.body);
-    res.send("ok")
-
-  
-    const session = await stripe.checkout.sessions.create({
-      line_items: [
-        {
-            
-        }
-      ],
-      mode: "payment",
-      success_url: `${YOUR_DOMAIN}/success.html`,
-      cancel_url: `${YOUR_DOMAIN}/cancel.html`,
-    });
-  
-    res.json({ url: session.url });
+  if (!req.body) return res.send('pas de body');
+  const langParam = req.query['lang'] || "en";
+  const items = req.body.map(item => {
+    const itemDatabase = database.find(i => i.id === item.id);
+    return {
+      price_data: {
+        currency: 'eur',
+        product_data: {
+          name: itemDatabase.name[langParam] || itemDatabase.name.en,
+          images: [itemDatabase.image]
+        },
+        unit_amount: itemDatabase.price * 100
+      },
+      quantity: item.amount
+    }
   });
+   const session = await stripe.checkout.sessions.create({
+    payment_method_types: ['card'],
+    line_items: items,
+    mode: "payment",
+    success_url: `https://sensorial.vercel.app/code/payment/success.html`,
+    cancel_url: `https://sensorial.vercel.app/code/payment/cancel.html`,
+  });
+  
+  res.json({ url: session.url });
+});
 
 app.listen(8080, () => console.log(`Server is running in port 8080`));
