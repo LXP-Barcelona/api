@@ -55,7 +55,7 @@ app.get('/api/product/:id', (req, res) => {
     res.send(result);
 })
 
-app.post("/create-checkout-session", async (req, res) => {
+app.post("/api/create-checkout-session", async (req, res) => {
   if (!req.body) return res.send('pas de body');
   const langParam = req.query['lang'] || "en";
   const items = req.body.map(item => {
