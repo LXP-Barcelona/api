@@ -22,7 +22,7 @@
             "fr": "Détente",
             "es": "Relajación"
         },
-        "image": "https://sensorial.vercel.app/code/img/productImg/lavande.jpg"
+        "image": "https://sensorial.vercel.app/code/img/productImg/lavande.avif"
     },
     {
         "id": 2,
@@ -47,7 +47,7 @@
             "fr": "Clarté mentale",
             "es": "Claridad mental"
         },
-        "image": "https://sensorial.vercel.app/code/img/productImg/peppermint.jpg"
+        "image": "https://sensorial.vercel.app/code/img/productImg/peppermint.avif"
     },
     {
         "id": 3,
@@ -72,7 +72,7 @@
             "fr": "Santé respiratoire",
             "es": "Salud respiratoria"
         },
-        "image": "https://sensorial.vercel.app/code/img/productImg/eucalyptus.jpg"
+        "image": "https://sensorial.vercel.app/code/img/productImg/eucalyptus.avif"
     },
     {
         "id": 4,
@@ -97,7 +97,7 @@
             "fr": "Santé de la peau",
             "es": "Salud de la piel"
         },
-        "image": "https://sensorial.vercel.app/code/img/productImg/teatree.jpg"
+        "image": "https://sensorial.vercel.app/code/img/productImg/teatree.avif"
     },
     {
         "id": 5,
@@ -122,7 +122,7 @@
             "fr": "Purifiant",
             "es": "Purificante"
         },
-        "image": "https://sensorial.vercel.app/code/img/productImg/lemon.jpg"
+        "image": "https://sensorial.vercel.app/code/img/productImg/lemon.avif"
     },
     {
         "id": 6,
@@ -147,7 +147,7 @@
             "fr": "Santé de la peau",
             "es": "Salud de la piel"
         },
-        "image": "https://sensorial.vercel.app/code/img/productImg/rosemary.jpg"
+        "image": "https://sensorial.vercel.app/code/img/productImg/rosemary.avif"
     },
     {
         "id": 7,
@@ -172,7 +172,7 @@
             "fr": "Clarté mentale",
             "es": "Claridad mental"
         },
-        "image": "https://sensorial.vercel.app/code/img/productImg/chamomille.jpg"
+        "image": "https://sensorial.vercel.app/code/img/productImg/chamomille.avif"
     },
     {
         "id": 8,
@@ -197,7 +197,7 @@
             "fr": "Clarté mentale",
             "es": "Claridad mental"
         },
-        "image": "https://sensorial.vercel.app/code/img/productImg/encens.jpg"
+        "image": "https://sensorial.vercel.app/code/img/productImg/encens.avif"
     },
     {
         "id": 9,
@@ -222,7 +222,7 @@
             "fr": "Détente",
             "es": "Relajación"
         },
-        "image": "https://sensorial.vercel.app/code/img/productImg/sental.jpg"
+        "image": "https://sensorial.vercel.app/code/img/productImg/sental.avif"
     },
     {
         "id": 10,
@@ -247,7 +247,7 @@
             "fr": "Guérison",
             "es": "Cicatrización"
         },
-        "image": "https://sensorial.vercel.app/code/img/productImg/cedre.jpg"
+        "image": "https://sensorial.vercel.app/code/img/productImg/cedre.avif"
     },
     {
         "id": 11,
@@ -272,7 +272,7 @@
             "fr": "Clarté mentale",
             "es": "Claridad mental"
         },
-        "image": "https://sensorial.vercel.app/code/img/productImg/bergamote.jpg"
+        "image": "https://sensorial.vercel.app/code/img/productImg/bergamote.avif"
     },
     {
         "id": 12,
@@ -297,7 +297,7 @@
             "fr": "Détente",
             "es": "Relajación"
         },
-        "image": "https://sensorial.vercel.app/code/img/productImg/citronnelle.jpg"
+        "image": "https://sensorial.vercel.app/code/img/productImg/citronnelle.avif"
     },
     {
         "id": 13,
@@ -322,7 +322,7 @@
             "fr": "Clarté mentale",
             "es": "Claridad mental"
         },
-        "image": "https://sensorial.vercel.app/code/img/productImg/orange.jpg"
+        "image": "https://sensorial.vercel.app/code/img/productImg/orange.avif"
     },
     {
         "id": 14,
@@ -347,7 +347,7 @@
             "fr": "Santé respiratoire",
             "es": "Salud respiratoria"
         },
-        "image": "https://sensorial.vercel.app/code/img/productImg/patchouli.jpg"
+        "image": "https://sensorial.vercel.app/code/img/productImg/patchouli.avif"
     },
     {
         "id": 15,
@@ -372,7 +372,7 @@
             "fr": "Détente",
             "es": "Relajación"
         },
-        "image": "https://sensorial.vercel.app/code/img/productImg/geranium.jpg"
+        "image": "https://sensorial.vercel.app/code/img/productImg/geranium.avif"
     },
     {
         "id": 16,
@@ -397,6 +397,6 @@
             "fr": "Clarté mentale",
             "es": "Claridad mental"
         },
-        "image": "https://sensorial.vercel.app/code/img/productImg/thym.jpg"
+        "image": "https://sensorial.vercel.app/code/img/productImg/thym.avif"
     }
 ]
