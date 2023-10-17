@@ -14,6 +14,7 @@ app.get('/api/products/info', (req, res) => {
         max: maxProduct
     })
 })
+
 app.get('/api/products', (req, res) => {
     const langParam = req.query['lang'] || "en";
     const result = database.map(item => ({
