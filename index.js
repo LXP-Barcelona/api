@@ -76,6 +76,7 @@ app.post("/api/payment/create", async (req, res) => {
         payment_method_types: ['card'],
         line_items: items,
         mode: "payment",
+        billing_address_collection: 'required',
         success_url: `https://sensorial.vercel.app/code/payment/success.html?id=${Buffer.from(JSON.stringify(items)).toString('base64')}`,
         cancel_url: `https://sensorial.vercel.app/code/payment/cancel.html`,
     });
