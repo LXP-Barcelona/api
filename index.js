@@ -6,9 +6,7 @@ const stripe = require("stripe")(STRIPE_TEST_KEY);
 
 const app = express();
 app.use(
-    cors({
-        origin: "*",
-    })
+    cors()
 );
 
 app.use(express.json());
