@@ -10,6 +10,7 @@ app.use(
         origin: "*",
     })
 );
+
 app.use(express.json());
 app.get('/api/products/info', (req, res) => {
     const maxProduct = database.length;
