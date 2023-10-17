@@ -6,9 +6,9 @@ const stripe = require("stripe")(STRIPE_TEST_KEY);
 
 const app = express();
 app.use(
-  cors({
-    origin: "*",
-  })
+    cors({
+        origin: "*",
+    })
 );
 app.use(express.json());
 app.get('/api/products/info', (req, res) => {
@@ -55,32 +55,34 @@ app.get('/api/product/:id', (req, res) => {
     res.send(result);
 })
 
-app.post("/api/create-checkout-session", async (req, res) => {
-  if (!req.body) return res.send('pas de body');
-  const langParam = req.query['lang'] || "en";
-  const items = req.body.map(item => {
-    const itemDatabase = database.find(i => i.id === item.id);
-    return {
-      price_data: {
-        currency: 'eur',
-        product_data: {
-          name: itemDatabase.name[langParam] || itemDatabase.name.en,
-          images: [itemDatabase.image]
-        },
-        unit_amount: itemDatabase.price * 100
-      },
-      quantity: item.amount
-    }
-  });
-   const session = await stripe.checkout.sessions.create({
-    payment_method_types: ['card'],
-    line_items: items,
-    mode: "payment",
-    success_url: `https://sensorial.vercel.app/code/payment/success.html`,
-    cancel_url: `https://sensorial.vercel.app/code/payment/cancel.html`,
-  });
-  
-  res.json({ url: session.url });
+app.post("/api/payment/create", async (req, res) => {
+    if (!req.body) return res.send('pas de body');
+    const langParam = req.query['lang'] || "en";
+    const items = req.body.map(item => {
+        const itemDatabase = database.find(i => i.id === item.id);
+        return {
+            price_data: {
+                currency: 'eur',
+                product_data: {
+                    name: itemDatabase.name[langParam] || itemDatabase.name.en,
+                    images: [itemDatabase.image]
+                },
+                unit_amount: itemDatabase.price * 100
+            },
+            quantity: item.amount
+        }
+    });
+    const session = await stripe.checkout.sessions.create({
+        payment_method_types: ['card'],
+        line_items: items,
+        mode: "payment",
+        success_url: `https://sensorial.vercel.app/code/payment/success.html?id=${Buffer.from(JSON.stringify(items)).toString('base64')}`,
+        cancel_url: `https://sensorial.vercel.app/code/payment/cancel.html`,
+    });
+
+    res.json({
+        url: session.url
+    });
 });
 
 app.listen(8080, () => console.log(`Server is running in port 8080`));
